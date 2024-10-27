@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>MultiLoader - Главная</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Видеофон -->
+    <video autoplay muted loop id="backgroundVideo">
+        <source src="videos/background.mp4" type="video/mp4">
+        Ваш браузер не поддерживает видео.
+    </video>
+
+    <!-- Навигационное Меню -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Главная</a></li>
+            <li><a href="download.html">Скачать</a></li>
+            <li><a href="info.html">Информация</a></li>
+            <li><a href="reviews.html">Отзывы</a></li>
+            <li><a href="terms.html">Условия</a></li>
+        </ul>
+    </nav>
+
+    <!-- Основной Контент -->
+    <div class="content">
+        <header>
+            <h1>MultiLoader</h1>
+            <p>Ваш универсальный загрузчик для всех ваших потребностей.</p>
+        </header>
+
+        <section class="buttons">
+            <a href="download.html" class="btn download-btn">
+                <img src="assets/download.png" alt="Скачать">
+                Скачать
+            </a>
+            <a href="info.html#pros-cons" class="btn info-btn">
+                <img src="assets/pros.png" alt="Плюсы">
+                Плюсы и Минусы
+            </a>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
